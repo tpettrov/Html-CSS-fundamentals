@@ -1,0 +1,38 @@
+body {
+  margin-top: 0px;
+  font-size: 14px;
+  font-family: Arial; }
+  body header {
+    width: 85%;
+    margin: 0 auto;
+    background: #234465;
+    margin-top: 0px;
+    height: 100px; }
+  body img {
+    margin-top: 20px;
+    margin-left: 30px; }
+  body div {
+    color: white;
+    float: right;
+    box-sizing: border-box; }
+  body span {
+    margin-left: 552px;
+    margin-top: 10px;
+    display: block; }
+  body #left {
+    position: relative;
+    left: -5px; }
+  body input {
+    border-radius: 5px;
+    border: 1px solid #234465; }
+  body ul {
+    margin-right: 30px;
+    margin-top: 0px; }
+  body li {
+    display: inline-block;
+    font-size: 1.1em;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px; }
+
+/*# sourceMappingURL=style.css.map */

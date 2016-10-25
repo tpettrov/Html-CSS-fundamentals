@@ -1,0 +1,31 @@
+@font-face {
+
+	font-family: Animatedashell;
+	src: url('resources/animated.ttf');
+}
+
+.gradient {
+	height: 600px;
+	width: 900px;
+	background: -moz-radial-gradient(20% 20%, farthest-side, white, #0060db);
+	margin-left: 15%;
+
+}
+
+.pictures {
+	height: 600px;
+	width: 900px;
+	background: url(resources/TediHula.png), url(resources/PetiaHula.png), url(resources/AlexHula.png), 
+	url(resources/VladoGHula.png),url(resources/NakovHula.png), url(resources/VladoKHula.png),url(resources/hawaiiBackground.png);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position:35% 90%,26% 85%,75% 80%,4% 85%,60% 70%,98.5% 80%;
+}
+	
+span {
+font-family: Animatedashell;
+float:right;
+color: #FDBC21;
+font-size: 2.5em;
+margin-top: 1.5%;
+margin-right: 3%;
+}

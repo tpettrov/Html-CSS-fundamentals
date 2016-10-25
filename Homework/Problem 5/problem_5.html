@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<style>	
+		body {
+			background-image: url("background.jpg");
+		}
+
+		.transparent {
+			margin:10pt;
+            border: 1px solid white;
+            background-color:#404040 ;
+            opacity:0.9;
+        }
+
+        .transtxt {
+        	color: #FFFFCC;
+			font-weight: bold;
+		}
+		.gold {
+			color:#FFCC66;
+			font-weight: bold;
+
+		}
+		#white {
+			color: white;
+			font-size: 1.2em;
+		}
+
+		#wrapper {
+     		width: auto;
+    		margin: auto;
+     		padding: auto;
+        }
+
+        p {
+        	margin: 0;
+        }
+		div {
+			padding : 2px;
+			width: 95%;
+		}
+	</style>
+
+</head>
+<body>
+	<div id="wrapper">
+		<h1 class="gold"> Headings and Paragraphs </h1>
+	
+		<ul type="square" class="gold">
+			<li> 
+				<span id="white"> Heading tags: </span> &lt;h1&gt; <span id="white"> - </span> &lt;h6&gt;
+			</li>
+					<div class="transparent">
+						<p class="transtxt">
+							&lt; h1 &gt; Heading 1 &lt; /h1 &gt; <br>
+                            &lt; h2 &gt; Sub heading 2 &lt; /h2 &gt; <br>
+                            &lt; h3 &gt; Sub heading 3 &lt; /h3 &gt;
+						</p>
+					</div>	
+			<li>
+				<span id="white"> Paragraph tags: </span> &lt;p&gt; 
+			</li>	
+					<div class="transparent">
+						<p class="transtxt">
+							&lt; p &gt; This is my first paragraph &lt; /p &gt; </br>
+                            &lt; p &gt; This is my second paragraph &lt; /p &gt;
+						</p>
+					</div>
+			<li>
+				<span id="white"> Sections: </span> &lt;p&gt; <span id="white"> and </span> &lt;span&gt;
+			</li>
+					<div class="transparent">
+						<p class="transtxt">
+							&lt; div style="background:  skyblue;" &gt; </br>
+                            &emsp; This is a div </br>
+                            &lt; /div &gt;
+						</p>
+					</div>		
+		</ul>
+	</div>
+</body>	
+</html>

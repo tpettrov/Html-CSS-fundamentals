@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>
+				Flight order
+			</title>
+			
+				<link rel="stylesheet" type="text/css" href="styles.css">
+
+		</head>
+			<body>
+				<div class="wrapper">
+					<header> <h1> Flight order </h1> </header>
+				<div class="center">
+					<ul class="from_to">
+						<li> 
+							<label for="from">From</label>
+								<select name="from" id="from">
+						    		<option value="1">enter a city</option> </select>
+						</li>
+
+						<li>	
+							<label for="to">To</label>
+								<select name="to" id="to">
+						    		<option value="1">enter a city</option> </select> 
+						</li>
+					</ul>
+						<label for="directs"><input type="checkbox" name="prefer" id="directs"/> Prefer directs </label>
+					
+					<ul class="dep_date_time">
+						<li>
+							<label for="dep_date"> Departure date </label>
+							<input name="depdate" type="date" id="dep_date" placeholder="12.16.2015"/>  
+
+						</li>
+
+						<li>
+							<label for="from_to"> Time interval </label>
+							<input name="time interval" type="time" placeholder="00:20"/>  
+						</li>
+						<li>
+							<input name="time interval" type="time" placeholder="05:00"/> 
+						</li>
+					
+					</ul>
+
+					<ul class="return_date_time">
+						<li>
+							<label for="dep_date"> Return date </label>
+							<input name="depdate" type="date" id="dep_date" placeholder="13.06.2015"/>  
+
+						</li>
+
+						<li>
+							<label for="from_to"> Time interval </label>
+							<input name="time interval" type="time" placeholder="06:00"/>  
+						</li>
+						<li>
+							<input name="time interval" type="time" placeholder="22:00"/> 
+						</li>
+					
+					</ul>
+					
+					<ul>
+						<li> 
+								<label for="12"> 12+ </label>
+							<input id="12" type="number" placeholder="0"/> 
+
+						</li>
+
+						<li>
+							<label for="2-12"> 2-12 </label>
+							<input id="2-12" type="text" placeholder="0"/> 
+						</li>
+
+						<li>
+							<label for="0-2"> 2-12 </label>
+							<input id="0-2" type="text" placeholder="0"/> 
+						</li>
+
+						<li>
+							<label for="class"> Choose class </label>
+							<select name="from" id="class">
+						    		<option value="1">Economy</option>  
+						</li>
+					</ul>
+					<div> 
+					<input type="button" value="Search"/>
+					</div>
+						
+					</div>
+
+					</div>
+		</body>
+	
+	</html>

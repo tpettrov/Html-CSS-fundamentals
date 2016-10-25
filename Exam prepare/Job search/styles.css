@@ -1,0 +1,98 @@
+.wrapper {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 14px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	height: 60px;
+	width: 100%;
+	background: rgb(56,68,82);
+	color: rgb(175,185,195);
+}
+
+img {
+
+	vertical-align: middle;
+}
+
+li {
+
+	display: inline-block;	
+	width: 188px;
+	height: 60px;
+
+}
+
+ul {
+	padding-left: 0px;
+	margin:0px;
+}
+header > ul > li:nth-child(1) {
+
+	background: rgb(59,188,150);
+	color: white;
+}
+span {
+	position: relative;
+	left: -18px;
+}
+
+input, label {
+	display: block;
+}
+
+label {
+	font-weight: bold;
+	color: rgb(56,68,82);
+	margin-bottom: 15px;
+}
+
+button {
+	width:200px;
+	background:rgb(56,68,82);
+	color:white;
+	text-align: center;
+	
+	height: 34px;
+	border:none;
+	padding: 0px;
+
+}
+
+button:hover {
+	background: rgb(59,188,150);
+	cursor:pointer;
+}
+
+.main {
+	background: rgb(238,238,238);
+	height: 170px;
+}
+
+div.main > ul {
+
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 10px;
+	
+}
+
+
+div.main > ul > li:nth-child(1), li:nth-child(1), li:nth-child(1), li:nth-child(1) {
+
+	margin-bottom: 10px;
+}
+
+div.main > ul > li {
+
+	width: 210px;
+	margin-left: 20px;
+}
+
+input {
+	width: 200px;
+	height: 30px;
+
+}

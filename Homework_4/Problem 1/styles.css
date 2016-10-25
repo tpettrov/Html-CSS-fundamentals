@@ -1,0 +1,101 @@
+table {
+	width: 100%;
+	border-spacing: 0;
+	}
+
+th:first-child, th:first-child {
+    border-top-left-radius: 10px;
+    border: 1px solid black;
+    text-align: right;
+}
+
+.th_head_center {
+	border: 1px solid black;
+	border-left: transparent;
+}
+table thead tr:nth-child(5), th:nth-child(5) {
+border: 1px solid black;
+border-left: transparent;
+text-align: center;
+border-top-right-radius: 10px;
+}
+
+tfoot tr:nth-child(1) td:first-child {
+border-bottom-left-radius: 10px;
+}
+tfoot tr:first-child td:last-child {
+text-align: center;
+border-bottom-right-radius: 10px;
+}
+
+th {
+	background-color: rgb(248, 199, 17) !important;
+}
+td {
+border: 1px solid black;
+border-top: transparent;
+border-left: transparent;
+
+}
+tr:nth-child(odd) td {
+	background-color: #FFFFFF;
+}
+tr:nth-child(even) td {
+	background-color: rgb(200, 200, 200);
+}
+.border-left_active {
+	border-left: 1px solid black;
+	text-align: right;
+}
+tr td:nth-child(2) {
+ 	text-align: center;
+ }
+tr td:nth-child(3) {
+text-align:left;
+}
+tr td:nth-child(4) {
+	text-align: center;
+}
+tr td:nth-child(5) {
+	text-align: right ;
+}
+
+.red {
+	background-color: #DDDCDC ;
+	color: red ;
+}
+.green {
+	color: green;
+}
+
+select {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #808080;
+    padding-left: 2px;
+    font-size: 8px;
+    text-align: center;
+    float: center;
+    margin-right: -4px;
+}
+
+.red-button {
+	padding: 7px 5px;
+	border-radius: 20px;
+	background-color: red;
+	display: inline-block;
+	font-size: 3px;
+}
+.green-button {
+	padding: 7px 5px;
+	border-radius: 20px;
+	background-color: green;
+	float: left;
+	font-size: 3px;
+}
+	
+body {
+	font-size: 9px;
+	background-color: rgb(0, 146, 62);
+	overflow: transparent;
+}

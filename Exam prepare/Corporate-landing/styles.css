@@ -1,0 +1,261 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(http://fonts.gstatic.com/s/ubuntu/v8/_aijTyevf54tkVDLy-dlnFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v8/sDGTilo5QRsfWu6Yc11AXg.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v8/0ihfXUL2emPh0ROJezvraFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+
+.background {
+  margin-top: -13px;
+  margin-right: -8px;
+  margin-left: -8px;
+  background: rgba(73,93,189,1);
+background: -moz-linear-gradient(45deg, rgba(73,93,189,1) 0%, rgba(73,93,189,1) 2%, rgba(77,116,184,1) 31%, rgba(125,201,197,1) 93%, rgba(125,201,197,1) 99%);
+background: -o-linear-gradient(45deg, rgba(73,93,189,1) 0%, rgba(73,93,189,1) 2%, rgba(77,116,184,1) 31%, rgba(125,201,197,1) 93%, rgba(125,201,197,1) 99%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(73,93,189,1)), color-stop(2%, rgba(73,93,189,1)), color-stop(31%, rgba(77,116,184,1)), color-stop(93%, rgba(125,201,197,1)), color-stop(99%, rgba(125,201,197,1)));
+background: -webkit-linear-gradient(45deg, rgba(73,93,189,1) 0%, rgba(73,93,189,1) 2%, rgba(77,116,184,1) 31%, rgba(125,201,197,1) 93%, rgba(125,201,197,1) 99%);
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: -13px;
+  
+}
+
+nav {
+
+  font-family: ubuntu;
+  font-size: 13px;
+  color:white;
+  padding: 10px;
+}
+header {
+text-align: center;
+height: 400px;
+
+}
+
+ul > li {
+  display: inline-block;
+  margin-right: 1%;
+
+}
+li:first-of-type {
+
+  margin-right:40%;
+  margin-left: 7%;
+}
+
+h1, h5, h3, h6 {
+  text-align: center;
+  font-family: Ubuntu;
+  font-weight: normal;
+}
+h1 {
+  font-size: 54px;
+  color: rgb(88,238,255);
+  margin-bottom: 0px;
+  letter-spacing: 7px;
+}
+header > h5 {
+  font-size:13px;
+  color: white;
+  margin-top: -10px;
+  word-spacing: 8px;
+}
+h3 {
+  color:white;
+  font-size: 24px;
+}
+
+button {
+  color:white;
+  border:1px solid white;
+  margin-top: 25px;
+  width: 140px;
+  height: 30px;
+  background: rgba(85,130,186,1);
+}
+h6 {
+  color:white;
+  word-spacing: 7px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.underline {
+  border:0;
+  width: 165px;
+  border-top:0.5px solid white;
+}
+.nav {
+  position: relative;
+  top:60px;
+  border:0;
+  border-top: 1px solid rgba(195,195,195,0.4);
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+#block {
+  display: inline-block;
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  margin-right:30px;
+  margin-left: 30px;
+ 
+}
+
+h4 {
+  font-family: Ubuntu;
+  text-align: center;
+  color: rgb(105, 122, 132);
+  font-size: 20px;
+  font-weight: normal;
+}
+#options {
+  margin: 0 auto;
+  width: 146px;
+  height: 127px;
+  background: url(02-icons-Sprite.png) 0 0;
+}
+
+#interfaces {
+  margin: 0 auto;
+  width: 146px;
+  height: 127px;
+  background: url(02-icons-Sprite.png) 322px 0;
+}
+
+#documentation {
+  margin: 0 auto;
+  width: 146px;
+  height: 127px;
+  background: url(02-icons-Sprite.png) 150px 0;
+}
+#h5 {
+  font-family: Ubuntu;
+  color:rgb(107,119,135);
+  margin-top:15px;
+  font-size: 18px;
+}
+
+p {
+  color:rgb(107,119,135);
+  font-size: 16px;
+  font-family: myriad pro;
+}
+
+a {
+  color: rgb(88,238,255);
+}
+.bar  {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(255,121,120);
+}
+
+.bar:before, .bar:after {
+  content: "";
+  height: 100%;
+}
+
+.bar:before {
+  position: absolute;
+  width: 100vw;
+  background: rgb(255,121,120);
+  left: calc(-50vw + 540px);
+  z-index: -1;
+}
+.bartext {
+  color:white;
+ 
+  line-height: 60px;
+}
+
+section > h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font: 24px Ubuntu;
+  color:rgb(107,119,135);
+  margin-top: 25px;
+}
+
+.boxes {
+  display: inline-block;
+  width: 500px;
+  margin: 15px;
+  background: rgb(247, 248, 250);
+
+}
+
+.boxes > img {
+  float: left;
+  margin-right: 15px;
+}
+
+.boxes h5, .boxes p {
+  color:rgb(107,119,135);
+  text-align: left;
+}
+
+.boxes h5 {
+  font-size: 18px;
+  margin-top:10px;
+}
+.boxes p{
+  font-size: 13px;
+}
+
+section > p {
+  text-align: center;
+  font-style: italic;
+}
+
+section > p:nth-of-type(2) {
+  color: rgb(88,238,255);
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer {
+  background-color: rgb(40,46,60);
+
+}
+.miniwrapper {
+  width: 1100px;
+  height: 80px;
+  margin: 0 auto;
+  line-height: 80px;
+  
+}
+.left {
+  float:left;
+  margin:0px; 
+}
+.right{
+  float: right;
+  margin:0px;
+}
+body {
+  padding:0; 
+  margin: 0;
+}

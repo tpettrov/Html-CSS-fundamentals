@@ -1,0 +1,57 @@
+<!doctype html>
+<head>
+	<title> Fakebook </title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+		<h1> fakebook<span>&#174;</span> </h1>
+			<p id="bigger"> Registration </p>
+				<p> It is safe and it will always be! </p>
+		</header>
+		
+		<fieldset class="right">
+			<legend align="center"> Non important information </legend>
+
+				<input type="text" placeholder="First Name" />
+				<input type="text" placeholder="Last Name"/>
+				<input type="text" placeholder="Your Email"/>
+				<input type="text" placeholder="Phone Number" title="Digits Please" pattern="[0-9] {9}"/>
+				<input type="text" placeholder="Your Password" tabindex="10"/>
+				<input type="text" placeholder="Website"/>
+				<label for="date"> Birthday </label> </br>
+				<input type="datetime" value="2007-03-26" id="date"/> </br>
+				<input type="radio" id="Female" /> <label for="Female"> Female </label>
+				<input type="radio" id="Male" /> <label for="Male"> Male </label>
+				<input type="radio" id="Other" /> <label for="Other"> Other </label>
+
+		</fieldset>
+			<button type="button"> Clear Form </button>
+
+		<fieldset class="left">
+			<legend align="center"> Important Information *required </legend>
+				<select>
+					<option> Empty value </option>
+				</select>
+				<input type="text" placeholder="Village" required="true"/>
+				<input type="text" placeholder="District"/>
+				<input type="text" placeholder="Street"/>
+				<input type="text" class="short" placeholder="Nr"/>
+				<input type="text" class="short" placeholder="Floor"/>
+				<input type="text" class="short" placeholder="Ap Nr"/> </br>
+				<label for="color"> Door Color </label> </br>
+				<input type="color" id="color" class="color" value="#FF80C0"/>
+				<input type="text" placeholder="Water Meter Nr" tabindex="5"/>
+				<select>
+					<option> Empty value </option>
+				</select>
+				<label for="text"> More Personal Information </label> </br>
+				<textarea id="text"> Give Us More Information!!! </textarea>
+
+		</fieldset>
+		<button class="right2" type="button"> Register </button>
+	</div>
+
+</body>
+</html>

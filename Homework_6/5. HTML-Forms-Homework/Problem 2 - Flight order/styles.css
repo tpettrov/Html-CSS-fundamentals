@@ -1,0 +1,82 @@
+.wrapper {
+	width: 33%;
+	height: 280px;
+	margin: 0 auto;
+	background: rgb(255, 192, 203);
+	font-family: Arial;
+}
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 15px;
+	font-style: italic;
+	margin-bottom: 0px;
+}
+
+label {
+	display: block;
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+select {
+	border: 1px solid grey;
+	border-radius: 1px;
+width: 210px;
+
+
+}
+ul > li {
+	
+	display: inline-block;
+
+}
+ul{
+	margin: 0px;
+	padding-left: 0px;
+
+}
+label[for="directs"] {
+	position: relative;
+	left: 213px;
+	font-size: 0.6em;
+
+}
+input[type="checkbox"] {
+
+	position: relative;
+	-moz-transform: scale(0.6);
+	top:2px;
+	margin-right: 0px;
+}
+input[type="time"] {
+
+	width: 98px;
+}
+input[type="date"] {
+
+	width: 205px;
+}
+
+input[type="number"],input[type="text"] {
+	width: 62px;
+}
+
+.center {
+	margin-left: 7px;
+
+}
+
+input[type="button"] {
+	position: absolute;
+	display: block;
+	width: 210px;
+	margin-top: 5px;
+	padding: 5px;
+	
+}
+
+input {
+	border: 1px solid grey;
+	border-radius: 1px;
+}

@@ -1,0 +1,38 @@
+.wrapper {
+
+	width: 20%;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+
+header {
+
+	background-image: url(\wordpress.png);
+	background-repeat: no-repeat;
+	height: 92px;
+	background-position: left;
+}
+
+img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	margin-left: 5px;
+}
+
+span {
+
+	display: block;
+}
+button {
+	border:1px solid grey;
+	border-radius: 2px;
+	width: 93px;
+}
+
+input[type="text"] {
+
+	border: 1px solid grey;
+	border-radius: 1px;
+}	

@@ -1,0 +1,135 @@
+body {
+	background: url("Images/background.jpg") no-repeat center center fixed;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.wrapper {
+	width: 800px;
+	height: 470px;
+	margin:0 auto;
+	background: rgba(250,250,250,0.3);
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 20px;
+	border-radius: 50px;
+	color:rgb(40,103,154);
+}
+
+header > ul > li {
+	display: inline-block;
+	color: rgb(40,103,154);
+	width: 150px;
+	margin-top: 20px;
+}
+
+.img-li {
+	width: 35px;
+	height: 35px;
+	vertical-align: middle;
+}
+ul {
+	text-align: center;
+	padding: 0px;	
+}
+
+fieldset {
+	border:2px solid rgb(40,103,154);
+	border-radius: 20px;
+	width: 330px;
+	height: 300px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+
+.left input {
+	display: block;
+	margin: 0 auto;
+}
+main {
+	display: inline-block;
+}
+.left {
+	float:left;
+	margin-left: 35px;
+
+}
+.right {
+	float:right;
+	text-align: center;
+
+}
+
+input[type=text] {
+
+	width: 250px;
+	height: 30px;
+	border:1px solid rgb(40,103,154);
+	border-radius: 10px;
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	color: rgb(40,103,154);
+
+}
+
+.left > input:nth-child(2) {
+	background: url(images/user1.png) no-repeat scroll 5px 7px;
+	padding-left:30px;
+	margin-top: 50px;
+}
+.left > input:nth-child(3) {
+	background: url(images/email.png) no-repeat scroll 5px 7px;
+	padding-left:30px;
+}
+.left > input:nth-child(4) {
+	background: url(images/phone.png) no-repeat scroll 5px 7px;
+	padding-left:30px;
+}
+
+
+input [type="radio"] {
+	display: inline;
+}
+
+#destination, #date {
+	display: block;
+}
+
+select {
+	width: 300px;
+	height: 50px;
+	border: 1px solid rgb(40,103,154);
+	border-radius: 10px;
+	margin-left: 15px;
+	background: no-repeat scroll;
+	color: rgb(40,103,154);
+}
+input[type="date"] {
+
+	width: 300px;
+	height: 30px;
+	border: 1px solid rgb(40,103,154);
+	border-radius: 10px;
+	background: no-repeat scroll;
+	margin-left: 15px;
+}
+button {
+	float: right;
+	width: 85px;
+	height: 45px;
+	border-radius: 10px;
+	background: no-repeat scroll;
+	font-size: 24px;
+}
+#green {
+	margin-right:39px;
+	color:green;
+	border:2px solid green;
+}
+#red {
+	color:red;
+	border:2px solid red;
+	margin-right: 2px;
+}

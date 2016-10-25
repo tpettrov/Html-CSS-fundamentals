@@ -1,0 +1,51 @@
+form {
+	width: 376px;
+	height: 634px;
+	background-image:url(resources/formBackground.jpg);
+	border-radius: 3px;
+	font-style: serif;
+	font-family: Arial;
+}
+
+#Details {
+		float:center;
+		width: 90%;
+		background-color:  rgba(136, 172, 205, 0.7);
+		border: 1px solid #dbe6f0;
+		margin-left:13px;
+		border-radius:3px;
+		padding: 5px;
+		margin-top: 1px;
+		margin-bottom:2px;
+		opacity: 0.9;
+}
+
+label {
+	margin-right: 0px;
+}
+
+input [text] {
+	float:right;
+	margin-right: 50px;
+	border-radius: 3px;
+	border:none;
+	width: 182px;
+	height: 23px;
+	
+}
+h3 {
+	color:white;
+	margin-left:13px;
+}
+textarea {
+	margin-left: 40px;
+	border-radius: 3px;
+	border:none;
+}
+
+#visa {
+	background: url(resources/visa.png);
+	background-repeat: no-repeat;
+	padding-left: 90px;
+	background-position: 50% 50%;
+}

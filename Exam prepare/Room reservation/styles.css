@@ -1,0 +1,142 @@
+.wrapper {
+
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+	max-width: 800px;
+	margin:0 auto;
+	background: rgb(235,235,235);
+	height: 550px;
+}
+
+header {
+
+	font-size: 28px;
+	color:rgb(49,153,227);
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px dashed rgb(216,216,216);
+	background: rgb(241,241,241);
+	padding: 15px;
+}
+
+
+main {
+	width: 90%;
+	margin: 0 auto;
+	padding: 15px;
+	height: 120px;
+	border-bottom: 1px dashed rgb(216,216,216);
+}
+
+.left {
+	float:left;
+	width: 73%;
+}
+
+.right {
+
+	float: right;
+	margin-top:15px;
+}
+
+h4 {
+
+	color:rgb(59,42,37);
+	font-size: 16px;
+}
+
+label[for="search"] {
+	color:rgb(59,42,37);
+	font-weight: bold;
+	font-size: 12px;
+
+}
+input[type="text"], input[type="number"] {
+	
+	border:1.5px solid rgb(212,212,212);
+	border-radius: 3px;
+	padding: 7px;
+	margin-bottom: 10px;
+	width: 125px;
+
+
+}
+button {
+	position: relative;
+	width: 25px;
+	margin-left: -29px;
+	height: 24px;
+	border:none;
+	padding: 0px;
+	border-right: 1.5px solid rgb(212,212,212);
+	text-align: center;
+	background: white;
+}
+
+form {
+
+	width: 90%;
+	height: 200px;
+	margin: 0 auto;
+	border-bottom: 1px dashed rgb(216,216,216);
+}
+.personal_details {
+	width: 21%;
+	float: left;
+	
+}
+
+.left_menu {
+	width: 78%;
+	float:right;
+	
+}
+form > input, label {
+	display:block;
+	margin-left: 0px;
+}
+li {
+	display: inline-block;
+}
+select {
+	width: 350px;
+	padding: 5px;
+	border:1.5px solid rgb(212,212,212);
+	border-radius: 3px;
+}
+div.left_menu > h4 {
+	margin-left: 38px;
+}
+
+input[type="date"] {
+
+	border:1.5px solid rgb(212,212,212);
+	border-radius: 3px;
+	padding: 7px;
+	width: 230px;
+}
+
+input[type="number"], label[for="number"] {
+
+	margin-left: 15px;
+}
+
+#checkout, label[for="checkout"]  {
+
+	margin-left: 15px;
+}
+
+button.book {
+
+	float:right;
+	width: 127px;
+	height: 27px;
+	background: rgb(50, 162, 228);
+	border-radius: 3px;
+	color:white;
+	margin-top: 15px;
+	margin-right:50px;
+	padding:5px;
+	text-align: center;
+	font-weight: bold;
+}

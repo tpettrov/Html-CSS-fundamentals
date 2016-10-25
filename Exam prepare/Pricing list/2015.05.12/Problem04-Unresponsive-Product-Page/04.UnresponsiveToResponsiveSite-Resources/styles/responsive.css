@@ -1,0 +1,41 @@
+@media all and (max-width: 640px) {
+
+.wrap {
+	width: 100vw;
+}
+
+#header-top-area h1 {
+	width: 122px;
+}
+
+#header-top-area h2 {
+	display: none;
+}
+#header-top-area:after { 
+   content: ""; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+#header-top-area {
+	padding: 0.5rem;
+	border-bottom: 1px solid black;
+}
+#header-bottom-area {
+	display: none;
+}
+#header-middle-area {
+	border-bottom: 1px solid black;
+	padding: 7px;
+}
+#product-menu {
+	display: block;
+	float: none;
+}
+#product-menu:hover  .submenu {
+    display:block;
+    
+}
+
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Extreme Reservation</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<ul>
+				<li><img class="img-li"  src="images/paraglider-icon.png" alt="">Paragliding</li>
+				<li><img class="img-li" src="images/sky-diver.png" alt="">Skydiving</li>
+				<li><img class="img-li" src="images/climbing.png" alt="">Climbing</li>
+				<li><img class="img-li" src="images/about-us.png" alt="">About Us</li>
+			</ul>
+		</header>
+		<main>
+				<fieldset class="left">
+					 <legend align="center">Personal Info  </legend>
+					 <input  type="text" placeholder="Enter your full name">
+					 <input type="text" placeholder="Enter a valid e-mail">
+					 <input type="text" placeholder="Enter a phone number">
+
+				</fieldset>
+
+				<fieldset class="right">
+					<legend align="center">Flight Info  </legend>
+					<p> Are you flying for the first time? </p>
+					<input type="radio" id="yes">
+					<label for="yes"> Yes </label>
+					<input type="radio"	id="no">
+					<label for="yes"> No </label> </br>
+					<label for="destination"> Choose destination </label>
+					<select name="" id="destination">
+						<optgroup label="Bulgaria"> 
+							<option value=""> Dobrostan </option>
+							<option value=""> Sofia </option>
+							<option value=""> Sopot </option>
+							<option value=""> Bourgas </option>
+						</optgroup>
+						<optgroup label="Rest of the world"> 
+							<option value=""> Nepal </option>
+							<option value=""> Turskey </option>
+							<option value=""> France </option>
+						</optgroup>
+					</select>
+ 
+						<label for="date"> Choose Date </label>
+						<input type="date" id="date">
+
+				</fieldset>
+		</main>
+		<footer>
+			<button id="green">Clear</button>
+			<button id="red">Send</button>
+		</footer>
+	</div>
+	
+</body>
+</html>

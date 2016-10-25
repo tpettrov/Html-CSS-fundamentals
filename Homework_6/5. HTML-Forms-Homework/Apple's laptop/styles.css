@@ -1,0 +1,83 @@
+.wrapper {
+
+	width: 630px;
+	height: 600px;
+	margin: 0 auto;
+	font-family: Arial;
+	
+}
+
+.ranges {
+	
+	float:right;
+	width: 136px;
+	height: 355px;
+	border:1px solid rgb(229, 243, 252);
+	background:rgb(247,252,255);
+	color:rgb(51, 106, 167);
+}
+
+input[type="range"] {
+
+	width: 128px;
+
+}
+p {
+	margin-bottom: 0px;
+	text-align: center;
+	margin-top: 5px;
+}
+.right {
+	float:right;
+	font-size: 0.7em;
+}
+
+.left {
+	font-size: 0.7em;
+	float:left;
+}
+
+.laptops {
+
+	float:left;
+	width: 490px;
+	height: 410px;
+}
+
+ li {
+	display:inline-table;
+	width: 135px;
+	height: 155px;
+	border:1px solid black;
+	margin: 4px;
+	border-radius: 10px;
+	border:1px solid rgb(229, 243, 252);
+	color:rgb(41, 87, 132);
+}
+.brand {
+	font-size:0.9em;
+	font-weight: bold;
+}
+.specifications {
+
+	font-size: 0.8em;
+}
+
+img {
+	float: left;
+	position: relative;
+	left: 11px;
+}
+.price {
+
+	width: 76px;
+	height: 20px;
+	background-color: rgb(44, 66, 90);
+	color: white;
+	text-align: center;
+	position: relative;
+	padding: 6px;
+	float: right;
+	bottom:-5px;
+	border-top-left-radius: 10px;
+}
